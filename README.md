@@ -4,12 +4,12 @@
 
 ## 当前版本
 
-- v1.0.6
+- v1.0.8
 
 ## 内容说明
 
-- `releases/v1.0.6/desktop/`：Windows / Linux 桌面端产物
-- `releases/v1.0.6/android/`：Android APK
+- `releases/v1.0.8/desktop/`：Windows / Linux 桌面端产物
+- `releases/v1.0.8/android/`：Android APK
 
 ## 公开范围
 
@@ -25,4 +25,4 @@
 - 核心思路文档
 
 源仓库：https://github.com/SsuJojo/AI-Interview
-Release：https://github.com/SsuJojo/AI-Interview/releases/tag/v1.0.6
+Release：https://github.com/SsuJojo/AI-Interview/releases/tag/v1.0.8
