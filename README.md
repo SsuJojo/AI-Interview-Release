@@ -137,7 +137,7 @@ AI Interview 是一个面向求职训练、课程演示与日常练习的 AI 面
 
 ## 贡献者
 
-感谢所有参与本项目设计、开发、测试与维护的成员。
+感谢所有参与本项目的人。
 
 [![Contributors](https://contrib.rocks/image?repo=SsuJojo/AI-Interview-Release)](https://github.com/SsuJojo/AI-Interview-Release/graphs/contributors)
 
