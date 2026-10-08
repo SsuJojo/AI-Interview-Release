@@ -1,759 +1,536 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/).
+
 ## [Unreleased]
 
-## 修复
-- 解决了一些已知问题
+_No unreleased changes yet._
+
+## [v1.0.63]
+
+### Fixed
+
+- stop double-dedenting release notes heredoc body
+
+## [v1.0.62]
+
+### Added
+
+- add i18n coverage for remaining UI pages
+
+### Fixed
+
+- remove narrow-screen text clipping on profile, room and resume
+- stop hiding download entry in Electron-based IDE previews
+- prevent English text overflow on nav, hero and cards
+
+## [v1.0.61]
+
+### Added
+
+- add admin management console
+
+### Fixed
+
+- improve release metadata generation
+
+## [v1.0.60]
+
+### Fixed
+
+- don't force resume upload when opening My page
 
 ## [v1.0.59]
 
-## 更新
-- `v1.0.59` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- filter download release assets
 
 ## [v1.0.58]
 
-## 更新
-- `v1.0.58` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- normalize configured resume extensions
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Security
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- bound resume upload and parsing resources
+- enforce configured origin allowlist
+- add explicit origin allowlist parser
 
 ## [v1.0.57]
 
-## 更新
-- `v1.0.57` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 解决了一些已知问题
+- call cached resume session endpoint
+- expose cached resume session endpoint
+- create sessions from saved resumes
+- define cached resume session request
+- persist resumes for cached job sessions
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Fixed
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- start cached jobs in fresh sessions
 
 ## [v1.0.56]
 
-## 更新
-- `v1.0.56` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- localize API errors and network fallbacks
 
 ## [v1.0.55]
 
-## 更新
-- `v1.0.55` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- prevent navigation after renaming interview records
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.54]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+### Fixed
+
+- remove demo data fallbacks
 
 ## [v1.0.53]
 
-## 更新
-- `v1.0.53` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- render report summary in report view
+- render real analysis summary
 
 ## [v1.0.52]
 
-## 更新
-- `v1.0.52` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- preserve speech draft when recognition stops
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.51]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+### Fixed
+
+- clear stale user state on expiry
+- log out expired sessions automatically
 
 ## [v1.0.50]
 
-## 更新
-- `v1.0.50` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- disable demo data seeding by default
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.49]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+### Added
+
+- localize auth and profile flows
 
 ## [v1.0.48]
 
-## 更新
-- `v1.0.48` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- place desktop update translations per locale
+- localize desktop update banner labels
 
 ## [v1.0.47]
 
-## 更新
-- `v1.0.47` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 解决了一些已知问题
+- add interview room status messages
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Fixed
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- localize interview room runtime states
 
 ## [v1.0.46]
 
-## 更新
-- `v1.0.46` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- derive plans from real interview reports
 
 ## [v1.0.45]
 
-## 更新
-- `v1.0.45` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- hide release metadata assets
 
 ## [v1.0.44]
 
-## 更新
-- `v1.0.44` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- simplify Dockerfile shell commands
+- correct Dockerfile continuation syntax
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Security
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- run container as non-root user
 
 ## [v1.0.43]
 
-## 更新
-- `v1.0.43` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Security
 
-## 修复
-- 解决了一些已知问题
+- remove exposed API key from env example
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.42]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+### Added
+
+- add interview report translations
+- localize interview report and TXT export
+
+### Fixed
+
+- keep frontend package JSON valid
+- remove duplicate legacy report download
 
 ## [v1.0.41]
 
-## 更新
-- `v1.0.41` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- add frontend/src/i18n/index.js
+- add backend/tests/test_i18n.py
+- add backend/core/locale.py
+- update frontend/src/main.js
+- update frontend/src/components/resume/widgets/JobRecommend.vue
+- update frontend/src/components/resume/widgets/AIAnalysis.vue
+- update frontend/src/components/resume/ResumeUpload.vue
+- update frontend/src/components/interview/api.js
+- update frontend/src/components/interview/InterviewRoom.vue
+- update frontend/src/components/interview/Interview.vue
+- update frontend/src/components/home/Home.vue
+- update frontend/src/App.vue
+- update frontend/pnpm-lock.yaml
+- update frontend/package.json
+- update backend/services/session_service.py
+- update backend/services/ai_service.py
+- update backend/schemas.py
+- update backend/routers/resume.py
+- update backend/routers/interview.py
+- update backend/core/database.py
 
 ## [v1.0.40]
 
-## 更新
-- `v1.0.40` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- remove leaking container healthcheck
 
 ## [v1.0.39]
 
-## 更新
-- `v1.0.39` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- keep health checks responsive during AI calls
 
 ## [v1.0.38]
 
-## 更新
-- `v1.0.38` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 解决了一些已知问题
+- add historical score trend chart on profile page
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Fixed
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- scope study records and plans to current user
+- do not persist password in localStorage remember-me
 
 ## [v1.0.37]
 
-## 更新
-- `v1.0.37` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- only show migration notice on old domain
 
 ## [v1.0.36]
 
-## 更新
-- `v1.0.36` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- add one-time domain migration notice modal on homepage
 
 ## [v1.0.35]
 
-## 更新
-- `v1.0.35` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- restore profile avatar fallback
 
 ## [v1.0.34]
 
-## 更新
-- `v1.0.34` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
-
-## [v1.0.31]
-
-## 更新
-- `v1.0.31` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
-
-## 修复
-- 修复“我的”页面资料与建议缓存刷新，降低重复加载和旧数据残留
-- 修复下载页资产排序，未知平台文件稳定排到末尾
-- 修复面试报告标签保存与展示，避免多用户数据隔离场景下标签丢失
-- 清理面试标签合并残留，避免数据库迁移与报告展示产生异常
-- 修复公开发版 changelog/release notes 生成与验证流程
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android-universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- remove nested page scrollbar
 
 ## [v1.0.33]
 
-## 更新
-- `v1.0.33` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- keep generated changelog notes idempotent
 
 ## [v1.0.32]
 
-## 更新
-- `v1.0.32` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 解决了一些已知问题
+- standardize public release notes sync
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.31]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+### Fixed
+
+- clean up interview tag merge artifacts
+- preserve user-scoped session logic when adding tags
+
+## [v1.0.30]
+
+### Fixed
+
+- refresh my page cache data
+- cache my page profile data
+
+## [v1.0.29]
+
+_No user-visible changes in this release._
+
+## [v1.0.28]
+
+### Fixed
+
+- standardize public release notes
+- fetch all release notes for changelog
+- paginate release notes in changelog
+- generate changelog from release notes
 
 ## [v1.0.27]
 
-## 更新
-- `v1.0.27` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
-
-## 修复
-- 修复若干已知问题，提升发版资产可用性
-
-## 下载说明
-- Windows 用户优先下载 `.exe` 安装包
-- Android 用户下载 `.apk` 安装包
-- Linux 用户可按发行版选择 `.AppImage`、`.deb` 或 `.rpm`
+_No user-visible changes in this release._
 
 ## [v1.0.26]
 
-## 更新
-- `v1.0.26` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 修复若干已知问题，提升发版资产可用性
-
-## 下载说明
-- Windows 用户优先下载 `.exe` 安装包
-- Android 用户下载 `.apk` 安装包
-- Linux 用户可按发行版选择 `.AppImage`、`.deb` 或 `.rpm`
+- isolate interview data by authenticated user
 
 ## [v1.0.25]
 
-## 更新
-- `v1.0.25` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
-
-## 修复
-- 修复若干已知问题，提升发版资产可用性
-
-## 下载说明
-- Windows 用户优先下载 `.exe` 安装包
-- Android 用户下载 `.apk` 安装包
-- Linux 用户可按发行版选择 `.AppImage`、`.deb` 或 `.rpm`
+_No user-visible changes in this release._
 
 ## [v1.0.24]
 
-## 更新
-- `v1.0.24` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Fixed
 
-## 修复
-- 修复若干已知问题，提升发版资产可用性
-
-## 下载说明
-- Windows 用户优先下载 `.exe` 安装包
-- Android 用户下载 `.apk` 安装包
-- Linux 用户可按发行版选择 `.AppImage`、`.deb` 或 `.rpm`
+- remove unused default job recommendations
 
 ## [v1.0.23]
 
-## 更新
-- `v1.0.23` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+_No user-visible changes in this release._
 
-## 修复
-- 解决了一些已知问题
+## [v1.0.22]
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+_No user-visible changes in this release._
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+## [v1.0.21]
 
-## [skill-v1.0.1]
+_No user-visible changes in this release._
 
-## 更新
-- `vskill-v1.0.1` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+## [v1.0.20]
 
-- Simplify DEVELOPMENT.md with a shorter step-by-step development flow.
-- Add historical report comparison and growth trend support in the skill runner and contracts.
-- Update report-related docs to match the new history-aware behavior.
+_No user-visible changes in this release._
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.19]
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+_No user-visible changes in this release._
+
+## [v1.0.18]
+
+_No user-visible changes in this release._
+
+## [v1.0.17]
+
+_No user-visible changes in this release._
+
+## [v1.0.16]
+
+_No user-visible changes in this release._
+
+## [v1.0.15]
+
+### Fixed
+
+- simplify resume drag upload handling
+
+## [v1.0.14]
+
+### Added
+
+- add skill package download card
+
+## [v1.0.13]
+
+_No user-visible changes in this release._
+
+## [v1.0.12]
+
+### Fixed
+
+- vercel api endpoint
+
+## [v1.0.11]
+
+### Added
+
+- add docker compose workflow
+
+## [v1.0.10]
+
+### Added
+
+- support Linux desktop update flow
+- add desktop auto update flow
+
+### Changed
+
+- simplify desktop update UI
 
 ## [v1.0.9]
 
-## 更新
-- `v1.0.9` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
-
-## 修复
-- 解决了一些已知问题
-
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
-
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+_No user-visible changes in this release._
 
 ## [v1.0.8]
 
-## 更新
-- `v1.0.8` 版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+### Added
 
-## 修复
-- 修复了公开网站无法拉取最新版本信息的 bug
-- 解决了一些已知问题
+- render release notes as markdown
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+### Fixed
 
-## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+- ignore wc total line in APK size check
+- compare Android release APKs by hash and size
+- always request release metadata via api path
+- build real split android release apks
+- publish release artifacts without repo sync
+- sign android apk outputs in release workflow
+- escape newline in apk workflow output
+- handle nested android apk outputs
+- verify only signed android apks
+- use correct android keystore path
+- resolve apksigner from android sdk
+- stop re-adding android platform in release workflow
+- track android project files for release builds
+- repair desktop release workflow yaml
 
 ## [v1.0.6]
 
-## 更新
-- 首个公开版本现已发布
-- 提供 Windows、Android、Linux 平台下载
-- 支持网页端、桌面端、手机端多端使用
+_No user-visible changes in this release._
 
-## 功能
-- AI 模拟面试，支持日常练习与面试训练
-- 简历解析与个人画像生成
-- 岗位推荐与匹配分析
-- 面试统计与记录查看
-- 评分反馈与复盘建议
+## [v1.0.5]
+
+### Added
+
+- sign and split Android release APKs
+- 下载页样式统一
+- add web app download entry
+
+### Changed
+
+- sync public docs and artifacts to release repo
+
+### Fixed
+
+- normalize Android release APK naming
+- submit auth form with Enter key
+
+## [v1.0.4]
+
+### Changed
+
+- sync public docs and artifacts to release repo
+
+### Fixed
+
+- publish public artifacts as release assets
+- validate release repo token before checkout
+- checkout source repo before public sync
+- add author email for Linux packaging
+- use png icon for Linux desktop builds
+
+## [v1.0.3]
+
+### Added
+
+- 更新示例环境变量以使用新的 AI API 和模型配置
+- remenber-password
+- 更新构建配置以支持 Linux 和 Windows 的新打包格式
+
+### Changed
+
+- AI Interview frontend with Vue 3, Vite, Electron and Capacitor
+
+### Fixed
+
+- submit auth form with Enter key
+- change-delete-style--fix-rename-function
+- ts2js
+- add capacitor setup for CI sync
+
+## [v1.0.2]
+
+### Fixed
+
+- node 22
+- disable implicit electron-builder publishing in ci
+
+## [v1.0.1]
+
+### Added
+
+- 更新 Docker 构建工作流以支持多个分支推送
+- 初步统一样式，美化
+- gpt换ds
+- 图标
+- 优化docker部署的磁盘占用问题
+- add Electron packaging support for desktop app
+- Docker OK
+- AI report
+- boys with boys' picture/Cheryl
+- picture
+- I write it in the name of branch/Cherylxb
+- merge mock interview room UI into real interview flow and remove mock page
+- 完善简历上传功能+fix:修改数据库json变文字 (#14)
+- 接入真实数据库数据，保留原有样式，修复前端请求端口和代理问题
+- 添加 Vercel 配置文件
+- 设计学习计划页面 (#9)
+- 设计学习计划页面 (#8)
+- 我的页面 - 新增Profile组件和My组件 (#6)
+- 在导航栏加入“我的”页面，新增了AI分析页面
+
+### Changed
+
+- 回退style的变更
+- 为路由添加名称标识
+- 更新构建命令和输出目录
+- 整理组件
+- reorganize component folders by feature
+- 移动并优化 preview 属性的定义位置
+- 优化代码格式和结构
+- initial project scaffold (Vue + Python 前后端分离架构)
+
+### Fixed
+
+- 美化
+- show real username below avatar
+- 补路由
+- 排查剩下的/api
+- 读取.env
+- no mock
+- fix backend startup path and update docs
+- repair plan and detail persistence
+- pass round state into new sessions
+- isolate home CTA loading states
+- 面试官失忆问题
+- 修正API代理目标地址
+- restore deleted comments and error message
+- My页面报错
+- 删除多余数据库
+- 修复重实例+对接数据库接口
+
+### Removed
+
+- 还原导航栏悬停样式
+- 取消 vite 配置的修改
 
 ## 说明
-- Windows：`.exe` 为安装版，适合大多数用户；`.zip` 为便携版，解压后即可使用
-- Android：如果你不清楚设备架构，建议优先下载 `android_universal.apk`
-- Linux：可根据系统选择 `.AppImage`、`.deb` 或 `.rpm`
-- 如果你想先快速体验，也可以直接使用网页版
+
+- 完整安装包与下载方式见发布仓库：[SsuJojo/AI-Interview-Release](https://github.com/SsuJojo/AI-Interview-Release).
