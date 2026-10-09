@@ -8,6 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.64]
+
+### Added
+
+- add Cloudflare Worker proxying release downloads to GitHub
+
+### Fixed
+
+- 按审查意见加固会话对账的并发与判据
+- 面试会话恢复时与服务端对账，避免误报提交失败
+- 收紧注册判重，用户名与邮箱各查各的字段
+
 ## [v1.0.63]
 
 ### Fixed
