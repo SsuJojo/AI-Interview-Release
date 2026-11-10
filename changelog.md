@@ -8,6 +8,49 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.66]
+
+### Fixed
+
+- strip precompressed assets before gradle build
+
+## [v1.0.65]
+
+### Added
+
+- add one-click sample resumes
+- recognize indented code blocks, match full fenced delimiter length
+
+### Changed
+
+- serve precompressed assets with cache and revalidation
+- code-split routes/i18n/naive-ui and precompress assets
+
+### Fixed
+
+- harden weak-network loading and static HTTP negotiation
+- require fenced close delimiter to consume the whole line
+- keep repeated blank lines uncollapsed inside indented code
+- preserve blank lines inside indented code blocks
+- skip separator normalization in indented code, keep python ** unpacking literal
+- restore quoted tokens in indented code, anchor fence opening to line start
+- require boundaries for straight double quotes, carry quoted literals through inline parsing
+- require real delimiter boundaries for single-quoted literals
+- protect single-quoted literals containing escape sequences
+- protect quoted technical literals from paragraph-escape decoding
+- decode only serialized \n\n clusters, preserve explicit ol item numbers
+- stop path protection before serialized escapes, preserve all candidate newlines
+- protect drive paths from escape decoding, reject compact ** expressions, drop underscore emphasis
+- decode escapes only on serialized paragraphs, reject spaced asterisk emphasis
+- preserve zero-based ol start and intraword separator runs
+- require whitespace boundaries for underscore emphasis
+- fenced code blocks, literal backslashes in multiline text, ol start number
+- honor Accept-Encoding q values when negotiating compression
+- stop clobbering persisted locale during module init
+- keep code spans intact during normalization, preserve answer indentation
+- address review: literal candidate text, code spans, scoped deep selectors
+- unify interview room style and render rich text safely
+
 ## [v1.0.64]
 
 ### Added
