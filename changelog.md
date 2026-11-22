@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.67]
+
+### Added
+
+- add reusable domain migration notice
+
 ## [v1.0.66]
 
 ### Fixed
