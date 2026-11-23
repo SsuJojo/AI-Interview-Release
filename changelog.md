@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.68]
+
+### Fixed
+
+- scope domain migration notices to source hosts (#143)
+
 ## [v1.0.67]
 
 ### Added
