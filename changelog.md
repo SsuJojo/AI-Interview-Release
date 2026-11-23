@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.69]
+
+### Fixed
+
+- render migration notice as centered modal (#145)
+
 ## [v1.0.68]
 
 ### Fixed
