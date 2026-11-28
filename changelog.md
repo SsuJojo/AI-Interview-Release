@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 _No unreleased changes yet._
 
+## [v1.0.70]
+
+### Fixed
+
+- proxy api and releases through vercel
+- keep legacy release proxy route
+- centralize release download domain
+
 ## [v1.0.69]
 
 ### Fixed
